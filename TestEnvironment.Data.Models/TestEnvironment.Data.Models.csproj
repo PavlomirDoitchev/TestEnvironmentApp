@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.16" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TestEnvironment.Data.Common\TestEnvironment.Data.Common.csproj" />
+    <ProjectReference Include="..\TestEnvironment.GCommon\TestEnvironment.GCommon.csproj" />
+  </ItemGroup>
+
 </Project>

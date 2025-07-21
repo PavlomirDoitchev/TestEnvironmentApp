@@ -1,6 +1,6 @@
 ﻿namespace TestEnvironment.Data.Common
 {
-	public class Class1
+	public class ExceptionMessages
 	{
 
 	}

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -17,6 +17,14 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestEnvironment.Data\TestEnvironment.Data.csproj" />
+    <ProjectReference Include="..\TestEnvironment.GCommon\TestEnvironment.GCommon.csproj" />
+    <ProjectReference Include="..\TestEnvironment.Services.Core\TestEnvironment.Services.Core.csproj" />
+    <ProjectReference Include="..\TestEnvironment.Web.Infrastructure\TestEnvironment.Web.Infrastructure.csproj" />
+    <ProjectReference Include="..\TestEnvironment.Web.ViewModels\TestEnvironment.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

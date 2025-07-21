@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TestEnvironment.Data.Models\TestEnvironment.Data.Models.csproj" />
+    <ProjectReference Include="..\TestEnvironment.GCommon\TestEnvironment.GCommon.csproj" />
+  </ItemGroup>
+
 </Project>

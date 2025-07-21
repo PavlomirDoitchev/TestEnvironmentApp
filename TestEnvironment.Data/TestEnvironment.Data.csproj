@@ -16,4 +16,15 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Repository\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestEnvironment.Data.Common\TestEnvironment.Data.Common.csproj" />
+    <ProjectReference Include="..\TestEnvironment.Data.Models\TestEnvironment.Data.Models.csproj" />
+    <ProjectReference Include="..\TestEnvironment.GCommon\TestEnvironment.GCommon.csproj" />
+  </ItemGroup>
+
 </Project>

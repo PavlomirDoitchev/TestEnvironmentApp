@@ -1,6 +1,6 @@
 ﻿namespace TestEnvironment.Web.ViewModels
 {
-	public static class ValidationMessages
+	public class Class1
 	{
 
 	}
